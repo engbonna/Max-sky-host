@@ -94,14 +94,14 @@ a.btn-outline-secondary:hover{
       transition: transform 0.3s ease;
     }
     .highlight {
-      border: 2px solid #0d6efd;
+      border: 2px solid #0b36a0;
     }
-
+   
 
     /*====== Risk-section ======*/
     .Risk{
       background-color: #143246D4;
-      color: white;
+      
     }
   h5{
     font-weight: 500;
@@ -121,4 +121,26 @@ a.btn-outline-secondary:hover{
   .need-help{
     background-color: #d8e8ff;
   }
-   
+
+ 
+     .btn-dark:hover{
+   background-color: #0d6efd;
+    color: white;
+}
+  
+
+   /*=========== footer==========*/
+    .footer-link {
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #0d6efd; 
+  
+}
+
+svg{
+  color: red;
+}
